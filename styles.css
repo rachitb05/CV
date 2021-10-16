@@ -1,0 +1,189 @@
+    .top-container {
+        background-color: #EAF6F6;
+        position: relative;
+        padding-top: 100px;
+    }
+    
+    body {
+        margin: 0px;
+        text-align: center;
+        font-family: 'Merriweather', serif;
+        color: #40514E;
+    }
+    /* .top-para {
+    font-size: 1.5rem;
+} */
+    /* 
+.programmer {
+    font-weight: normal;
+} */
+    
+    h1 {
+        margin: 50px auto 0px auto;
+        font-family: 'Sacramento', cursive;
+        font-size: 5.625rem;
+        /* 16px==1em==1rem==100%*/
+        /* em and % are inherited hence they add up if present in parent  */
+        /* therefore we use rem as rem is not inherited */
+        /* also px is not inherited  but it is static*/
+        color: #66BFBF;
+    }
+    
+    h2 {
+        font-family: sans-serif;
+        font-size: 2.5rem;
+        color: #66BFBF;
+        font-weight: normal;
+        padding-bottom: 10px;
+    }
+    
+    h3 {
+        font-family: sans-serif;
+        color: #11999E;
+        letter-spacing: 2px;
+    }
+    
+    hr {
+        border-style: dotted none none none;
+        height: 10%;
+        width: 5%;
+        color: grey;
+        border-width: 5px;
+    }
+    
+    p {
+        line-height: 2;
+    }
+    
+    .btn {
+        color: #11999E;
+    }
+    
+    .bottom-cloud {
+        position: absolute;
+        left: 250px;
+        bottom: 300px;
+    }
+    
+    .top-cloud {
+        /* display: inline-block; */
+        position: absolute;
+        right: 250px;
+        top: 50px;
+    }
+    
+    .my-profileimg {
+        height: 35%;
+        width: 35%;
+        border-radius: 95%;
+        margin-top: 20px;
+    }
+    
+    .skill-row {
+        /* display: inline-block; */
+        width: 50%;
+        margin: 100px auto;
+        text-align: left;
+        line-height: 2;
+    }
+    
+    .cpp-icon {
+        float: left;
+        padding-right: 30px;
+    }
+    
+    .webdev-icon {
+        float: right;
+        width: 25%;
+        height: 25%;
+        padding-left: 30px;
+    }
+    
+    .intro {
+        width: 30%;
+        margin: auto;
+    }
+    
+    .cpp-desc {
+        /* clear: left; */
+        width: 30%;
+        margin: auto;
+    }
+    
+    .webdev-desc {
+        /* clear: right; */
+        width: 30%;
+        margin: auto;
+    }
+    
+    a {
+        color: #03484b;
+        font-family: 'Montserrat', sans-serif;
+        margin: 10px 20px;
+        text-decoration: none;
+    }
+    
+    a:hover {
+        color: #EAF6F6;
+    }
+    
+    .footer-link {
+        font-size: 30px;
+    }
+    
+    .middle-container {
+        margin: 100px 0px;
+    }
+    
+    .bottom-container {
+        background-color: #66BFBF;
+        height: auto;
+        padding: 50px 0 20px;
+    }
+    
+    .connect {
+        padding: 10px;
+        width: 30%;
+        margin: 20px auto;
+    }
+    
+    .trademark {
+        color: #EAF6F6;
+        padding-top: 20px;
+    }
+    
+    .btn {
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        border-radius: 20px;
+        color: #FFFFFF;
+        font-family: Brush Script MT;
+        font-size: 20px;
+        font-weight: 100;
+        padding: 20px;
+        background-color: #66BFBF;
+        -webkit-box-shadow: 1px 1px 20px 0 #000000;
+        -moz-box-shadow: 1px 1px 20px 0 #000000;
+        box-shadow: 1px 1px 20px 0 #000000;
+        text-shadow: 1px 1px 20px #000000;
+        border: solid #337FED 1px;
+        text-decoration: none;
+        display: inline-block;
+        cursor: pointer;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    .btn:hover {
+        border: solid #337FED 1px;
+        background: #1E62D0;
+        background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+        background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+        background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+        background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+        background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        border-radius: 20px;
+        text-decoration: none;
+    }
